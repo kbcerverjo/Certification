@@ -53,7 +53,7 @@ def arithmetic_arranger(problems, statprint=False):
         arranged_problems = first + '\n' + second + '\n' + lines
     return arranged_problems
 
-#probando las funciones
+#probando la funcion
 
 if __name__ == "__main__":
     print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], True))
